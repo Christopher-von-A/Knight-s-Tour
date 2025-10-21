@@ -27,15 +27,16 @@ The program calculates how many squares are visited for each possible starting s
 For an 8×8 board:
 
 Greedy:
-36 37 43 49 36 35 48 42
-54 43 35 36 42 48 35 34
-36 29 54 42 34 35 41 47
-42 28 35 28 54 41 33 34
-45 35 41 27 26 27 46 40
-40  8 44 44 40 26 33 32
-10 54 46 54 55 31 39 54
-42 37 35 55 36 32 35 32
-
+|-------------------------|
+| 36 37 43 49 36 35 48 42 |
+| 54 43 35 36 42 48 35 34 |
+| 36 29 54 42 34 35 41 47 |
+| 42 28 35 28 54 41 33 34 |
+| 45 35 41 27 26 27 46 40 |
+| 40  8 44 44 40 26 33 32 |
+| 10 54 46 54 55 31 39 54 |
+| 42 37 35 55 36 32 35 32 | 
+|-------------------------|
 Each number shows how many squares were visited when the knight started from that square.
 
 # How It Works:
